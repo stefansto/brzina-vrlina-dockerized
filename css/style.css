@@ -1,0 +1,126 @@
+body {
+    padding-top: 8rem;
+  }
+
+.linkovi{
+  color:orange;
+  text-decoration-line: none;
+}
+
+.linkovi:hover{
+  color:white;
+}
+
+.page-link {
+  color: black;
+}
+
+body{
+  background-image: url("bg.jpg");
+  background-repeat: repeat;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav{
+  border-bottom: orange 1px solid;
+}
+
+form{
+  background: rgba(75, 73, 69, 0.384);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.block-mg{
+  margin-bottom: 180px;
+}
+
+#trkaci{
+  justify-content: space-evenly;
+  margin-bottom: 120px;
+}
+
+.dugmad{
+  margin-top: 25px!important;
+}
+
+input{
+  margin-top: 10px!important;
+  margin-bottom: 10px!important;
+}
+
+#unosTrkac{
+  margin-bottom: 90px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  left: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border:orange solid 1px;
+  border-bottom:none;
+  background-color: rgb(18, 18, 18)!important;
+}
+
+.footlink{
+  width: 20%;
+  margin: 0 auto;
+  border-bottom: white solid 1px;
+  margin-bottom: 5px;
+  color:white;
+}
+
+.footlink:hover{
+  color:orange;
+}
+
+.pog{
+  background: rgba(75, 73, 69, 0.384);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  width:100%;
+  min-height: 200px;
+}
+
+.logreg{
+  margin-top: 429px;
+}
+
+h2, h3, h4{
+  margin-top: 10px!important;
+  margin-bottom: 10px!important;
+}
+
+.linija{
+  border-bottom: white solid 1px;
+}
+
+.strane{
+  width: 500px;
+  margin: 10px;
+  padding: 30px;
+}
+
+.straneDugme{
+  background-color: rgba(26, 26, 26, 0.452)!important;
+  border:orange solid 1px;
+  text-decoration-line: none;
+  color:orange;
+  border-radius: 20px;
+}
+
+.straneDugme:hover{
+  color:white;
+  
+}
