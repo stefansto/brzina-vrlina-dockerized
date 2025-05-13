@@ -1,0 +1,30 @@
+name: brzina-vrlina
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - 5173:80
+    depends_on:
+      - mysql_db
+    networks:
+      - phpnetwork
+  mysql_db:
+    image: mysql:latest
+    volumes:
+      - mysql_data:/var/lib/mysql/
+      - ./db/database.sql:/docker-entrypoint-initdb.d/start.sql
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpass
+      - MYSQL_DATABASE=brzina
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=pass
+    networks:
+      - phpnetwork
+volumes:
+  mysql_data:
+networks:
+  phpnetwork:
